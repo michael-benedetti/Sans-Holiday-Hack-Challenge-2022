@@ -8,7 +8,7 @@ import React from "react";
 function GlamTarielsFountain() {
   return (
     <Accordion>
-      <ChallengeSummary title={"Glamtariel's Fountain"} difficulty={4}/>
+      <ChallengeSummary title={"Glamtariel's Fountain"} difficulty={5}/>
       <AccordionDetails>
         <ChallengeDetails>
           Stare into Glamtariel's fountain and see if you can find the ring! What is the filename of the ring she presents you? Talk to Hal Tandybuck in the Web Ring for hints.
