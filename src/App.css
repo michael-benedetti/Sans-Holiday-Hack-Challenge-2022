@@ -1,0 +1,18 @@
+body {
+    height: 100%;
+    background: #fafafa;
+}
+
+a {
+    color: #a00;
+}
+
+@font-face {
+    font-family: 'Tengwar';
+    src: local('Tengwar'), url(fonts/Tengwar.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Uruk';
+    src: local('Uruk'), url(fonts/Uruk.woff) format('woff');
+}
