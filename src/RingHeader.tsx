@@ -1,9 +1,8 @@
-import React from 'react';
 import './App.css';
 import {styled} from "@mui/system";
 
 const RingHeaderWrapper = styled('div')(
-  ({theme}) => ({
+  () => ({
     height: "80px",
     maxWidth: "80vw",
     padding: "20px",
@@ -12,7 +11,7 @@ const RingHeaderWrapper = styled('div')(
 )
 
 const NameWrapper = styled('div')(
-  ({theme}) => ({
+  () => ({
     display: "flex",
     paddingLeft: "20px",
     fontWeight: "bold",
@@ -24,7 +23,7 @@ const NameWrapper = styled('div')(
 )
 
 const StyledImage = styled('img')(
-  ({theme}) => ({
+  () => ({
     maxHeight: "100%",
     margin: "auto",
     float: "left",

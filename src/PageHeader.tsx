@@ -1,10 +1,9 @@
-import React from 'react';
 import './App.css';
 import {styled} from "@mui/system";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const PageHeaderWrapper = styled('div')(
-  ({theme}) => ({
+  () => ({
     background: "radial-gradient(rgba(100,0,0,0.2), black), url(images/north_pole.png)",
     backgroundSize: "100%",
     backgroundPosition: "20% 80%",
@@ -17,7 +16,7 @@ const PageHeaderWrapper = styled('div')(
 )
 
 const Title = styled('div')(
-  ({theme}) => ({
+  () => ({
     color: "white",
     fontSize: "5vw",
     fontFamily: "'Tangerine', serif",
@@ -26,7 +25,7 @@ const Title = styled('div')(
 )
 
 const Details = styled('div')(
-  ({theme}) => ({
+  () => ({
     color: "white",
     fontFamily: "'Tangerine', serif",
     fontSize: "3vw",
@@ -34,7 +33,7 @@ const Details = styled('div')(
   })
 )
 const Links = styled('div')(
-  ({theme}) => ({
+  () => ({
     display: "flex",
     justifyContent: "end",
     marginRight: "20px",
@@ -43,7 +42,7 @@ const Links = styled('div')(
 )
 
 const StyledExternalLink = styled('a')(
-  ({theme}) => ({
+  () => ({
     color: "black",
     '&:visited': {
       color: "black",

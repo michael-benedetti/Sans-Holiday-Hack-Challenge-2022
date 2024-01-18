@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import {styled} from "@mui/system";
 import {Character} from "./characters";
@@ -6,7 +5,7 @@ import LazyLoad from "react-lazy-load";
 
 
 const QuoteCardWrapper = styled('div')(
-  ({theme}) => `
+  () => `
   display: flex;
   border: 2px solid black;
   max-width: 90%;
@@ -17,7 +16,7 @@ const QuoteCardWrapper = styled('div')(
 )
 
 const PortraitWrapper = styled('div')(
-  ({theme}) => `
+  () => `
   grid-area: image;
   border-right: 2px solid black;
   background: #aa0000;
@@ -26,7 +25,7 @@ const PortraitWrapper = styled('div')(
 )
 
 const Portrait = styled('img')(
-  ({theme}) => `
+  () => `
   height: 150px;
   width: 150px;
   border-radius: 18px 0px 0px 0px;
@@ -35,7 +34,7 @@ const Portrait = styled('img')(
 )
 
 const Name = styled('div')(
-  ({theme}) => `
+  () => `
   border-top: 2px solid black;
   font-weight: bold;
   color: white;
@@ -46,7 +45,7 @@ const Name = styled('div')(
 )
 
 const QuoteWrapper = styled('div')(
-  ({theme}) => `
+  () => `
   display: inline-block;
   grid-area: quote;
   text-align: left;

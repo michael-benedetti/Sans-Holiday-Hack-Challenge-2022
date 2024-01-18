@@ -5,7 +5,7 @@ import {HTMLProps} from "react";
 
 
 export const WriteupWrapper = styled('div')(
-  ({theme}) => `
+  () => `
   display: block;
   max-width: 80vw;
   margin: 20px auto;
@@ -14,7 +14,7 @@ export const WriteupWrapper = styled('div')(
 
 
 export const Content = styled('div')(
-  ({theme}) => `
+  () => `
   display: block;
   margin: 20px;
   text-align: left;
@@ -22,7 +22,7 @@ export const Content = styled('div')(
 )
 
 export const HeaderImage = styled('img')(
-  ({theme}) => `
+  () => `
   display: block;
   margin: 20px auto;
   border-radius: 10px;
@@ -30,7 +30,7 @@ export const HeaderImage = styled('img')(
 )
 
 export const Pop = styled('span')(
-  ({theme}) => `
+  () => `
   color: #aa0000;
   display: inline;
   font-weight: bold;
@@ -38,7 +38,7 @@ export const Pop = styled('span')(
 )
 
 export const IC = styled('div')(
-  ({theme}) => `
+  () => `
   color: #00aa00;
   display: inline;
   font-family: 'Roboto', sans-serif;
@@ -47,7 +47,7 @@ export const IC = styled('div')(
 )
 
 export const _ContentImage = styled('img')(
-  ({theme}) => `
+  () => `
   margin: 20px auto;
   display: block;
   max-width: 90%;
@@ -65,7 +65,7 @@ export const ContentImage = function (props: HTMLProps<HTMLImageElement>) {
 }
 
 export const ChallengeDetails = styled('div')(
-  ({ theme }) => ({
+  () => ({
     padding: "10px",
     color: "#a00",
     fontStyle: "italic",
@@ -78,7 +78,7 @@ export const ChallengeDetails = styled('div')(
 
 
 export const TerminalPrompt = styled('div')(
-  ({theme}) => `
+  () => `
   background: #444;
   color: white;
   font-family: "Courier New";
@@ -90,7 +90,7 @@ export const TerminalPrompt = styled('div')(
 )
 
 export const StyledSyntaxHighligher = styled(SyntaxHighlighter)(
-  ({theme}) => `
+  () => `
   text-align: left;
   max-width: 90%;
   margin: 20px auto;
@@ -98,7 +98,7 @@ export const StyledSyntaxHighligher = styled(SyntaxHighlighter)(
 )
 
 export const LcdWrapper = styled('div')(
-  ({theme}) => ({
+  () => ({
     background: 'repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 2px)',
     zIndex: "1000",
     borderRadius: "20px"

@@ -1,9 +1,8 @@
-import React from 'react';
 import './App.css';
 import {styled} from "@mui/system";
 
 const QuestionAnswerWrapper = styled('div')(
-  ({theme}) => `
+  () => `
   display: block;
   border: 2px solid #0a0;
   border-radius: 10px;
@@ -14,7 +13,7 @@ const QuestionAnswerWrapper = styled('div')(
 )
 
 const Question = styled('div')(
-  ({theme}) => `
+  () => `
   display: block;
   border-radius: 10px;
   padding: 10px;
@@ -27,7 +26,7 @@ const Question = styled('div')(
 )
 
 const Answer = styled('div')(
-  ({theme}) => `
+  () => `
   display: block;
   border-radius: 10px;
   padding: 10px;

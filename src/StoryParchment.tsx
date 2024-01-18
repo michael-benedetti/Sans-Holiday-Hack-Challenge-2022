@@ -1,9 +1,8 @@
-import React from 'react';
 import './App.css';
 import {styled} from "@mui/system";
 
 const Parchment = styled('div')(
-  ({theme}) => ({
+  () => ({
     height: "480px",
     zIndex: "1000",
     position: "absolute",
@@ -32,7 +31,7 @@ const Parchment = styled('div')(
 )
 
 const ParchmentText = styled('div')(
-  ({theme}) => ({
+  () => ({
     '.tan': {
       fontFamily: "'Tengwar', cursive",
       filter: "none",

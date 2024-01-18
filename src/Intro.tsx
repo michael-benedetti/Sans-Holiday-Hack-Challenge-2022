@@ -1,11 +1,10 @@
-import React from 'react';
 import './App.css';
 import StoryParchment from "./StoryParchment";
 import {Pop} from "./Common";
 import {styled} from "@mui/system";
 
 const IntroWrapper = styled('div')(
-  ({theme}) => ({
+  () => ({
     width: "60vw",
     margin: "20px auto",
     display: "block",
@@ -14,7 +13,7 @@ const IntroWrapper = styled('div')(
 )
 
 const VisualContainer = styled('div')(
-  ({theme}) => ({
+  () => ({
     margin: "20px auto",
     display: "block",
     position: "relative",
@@ -22,7 +21,7 @@ const VisualContainer = styled('div')(
 )
 
 const SnowrogSnapshot = styled('img')(
-  ({theme}) => ({
+  () => ({
     objectFit: "none",
     objectPosition: "-580px -40px",
     height: "450px",
@@ -31,7 +30,7 @@ const SnowrogSnapshot = styled('img')(
 )
 
 const SnowrogWrapper = styled('div')(
-  ({theme}) => ({
+  () => ({
     height: "450px",
     position: "absolute",
     width: "450px",
