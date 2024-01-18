@@ -1,9 +1,8 @@
-import React from 'react';
 import './App.css';
 import {styled} from "@mui/system";
 
 const _404Wrapper = styled('div')(
-  ({theme}) => ({
+  () => ({
     margin: "20px",
     fontSize: "90px",
     fontFamily: "Uruk",
@@ -12,7 +11,7 @@ const _404Wrapper = styled('div')(
 )
 
 const Bsrs = styled('img')(
-  ({theme}) => ({
+  () => ({
     borderWidth: "10px",
     borderStyle: "solid",
     borderImage: "linear-gradient(45deg, rgba(150,100,100,1), rgba(0,0,0,0.9)) 1",

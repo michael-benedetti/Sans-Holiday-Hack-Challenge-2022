@@ -4,7 +4,6 @@ import {ChallengeDetails, Content, ContentImage, IC, Pop} from "../Common";
 import QuoteCard from "../QuoteCard";
 import characters from "../characters";
 import QuestionAnswer from "../QuestionAnswer";
-import React from "react";
 function WiresharkPractice() {
   return (
     <Accordion>

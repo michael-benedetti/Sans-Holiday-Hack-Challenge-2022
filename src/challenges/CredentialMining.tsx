@@ -1,7 +1,6 @@
 import ChallengeSummary from "../ChallengeSummary";
 import {Accordion, AccordionDetails} from "@mui/material";
 import {ChallengeDetails, Content, ContentImage, IC, Pop} from "../Common";
-import React from "react";
 
 function CredentialMining() {
   return (

@@ -3,7 +3,6 @@ import {Accordion, AccordionDetails} from "@mui/material";
 import {ChallengeDetails, Content, ContentImage, IC, Pop, StyledSyntaxHighligher, TerminalPrompt} from "../Common";
 import QuoteCard from "../QuoteCard";
 import characters from "../characters";
-import React from "react";
 
 function JollyCICD() {
   return (
